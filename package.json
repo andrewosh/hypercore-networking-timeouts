@@ -1,0 +1,24 @@
+{
+  "name": "hypercore-networking-timeouts",
+  "version": "1.0.1",
+  "description": "Hyperswarm-aware get/update timeouts for Hypercore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewosh/hypercore-networking-timeouts.git"
+  },
+  "keywords": [
+    "hypercore",
+    "hyperswarm",
+    "timeouts"
+  ],
+  "author": "Andrew Osheroff <andrewosh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewosh/hypercore-networking-timeouts/issues"
+  },
+  "homepage": "https://github.com/andrewosh/hypercore-networking-timeouts#readme"
+}
