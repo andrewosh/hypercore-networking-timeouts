@@ -1,6 +1,6 @@
 {
   "name": "hypercore-networking-timeouts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Hyperswarm-aware get/update timeouts for Hypercore",
   "main": "index.js",
   "scripts": {
