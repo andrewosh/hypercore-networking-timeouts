@@ -1,4 +1,5 @@
 module.exports = function setNetworkingTimeouts (networker, core) {
+  const discoveryKey = core.discoveryKey
   const timeouts = {
     get: (cb) => {
       if (networker.joined(discoveryKey)) {
