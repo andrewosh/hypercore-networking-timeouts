@@ -1,8 +1,8 @@
 module.exports = function setNetworkingTimeouts (networker, core) {
   const timeouts = {
     get: (cb) => {
-      if (this.networker.joined(discoveryKey)) {
-        if (this.networker.flushed(discoveryKey)) return cb()
+      if (networker.joined(discoveryKey)) {
+        if (networker.flushed(discoveryKey)) return cb()
         return flushSet.add(cb)
       }
       if (globalFlushed) return cb()
@@ -14,8 +14,8 @@ module.exports = function setNetworkingTimeouts (networker, core) {
         oldCb(...args)
       }
       if (core.peers.length) return cb()
-      if (this.networker.joined(discoveryKey)) {
-        if (this.networker.flushed(discoveryKey) && !core.peers.length) return cb()
+      if (networker.joined(discoveryKey)) {
+        if (networker.flushed(discoveryKey) && !core.peers.length) return cb()
         return peerAddSet.add(cb)
       }
       if (globalFlushed) return cb()
